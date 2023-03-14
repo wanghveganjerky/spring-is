@@ -1,7 +1,7 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-const CHAR_SIZE = 8;
+const CHAR_SIZE = 6;
 const TEXT = [ '0000000000---------------0000000000', '1', 'X','V','S','x','v','s'];
 
 const textIndex = Math.floor(Math.random() / TEXT.length);
