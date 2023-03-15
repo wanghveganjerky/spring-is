@@ -13,13 +13,13 @@ let angle = Math.random() * Math.PI * 2;
 
 function animate() {
   
-  angle += 0.004;
+  angle += 0.0035;
 
 
   const centerX = canvas.width / 2;
   const centerY = canvas.height / 2;
 
-  for (let j = 0; j < 12; j++) {
+  for (let j = 0; j < 18; j++) {
     for (let i = 0; i < TEXT.length; i++) {
       for (let k = 0; k < TEXT.length; k++) {
       
@@ -51,7 +51,7 @@ function animate() {
 
   requestAnimationFrame(animate);
 }
-// ctx.clearRect(0, 0, canvas.width, canvas.height);
+ctx.clearRect(0, 0, canvas.width, canvas.height);
 animate();
 
 
