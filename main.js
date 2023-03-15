@@ -19,7 +19,7 @@ function animate() {
   const centerX = canvas.width / 2;
   const centerY = canvas.height / 2;
 
-  for (let j = 0; j < 9; j++) {
+  for (let j = 0; j < 12; j++) {
     for (let i = 0; i < TEXT.length; i++) {
       for (let k = 0; k < TEXT.length; k++) {
       
